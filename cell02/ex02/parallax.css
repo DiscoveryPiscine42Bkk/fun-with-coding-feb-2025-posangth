@@ -1,0 +1,44 @@
+/* รีเซ็ตค่าพื้นฐาน */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* สไตล์พารัลแลกซ์ */
+.parallax {
+    height: 100vh; 
+    background-attachment: fixed; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img1 {
+    background-image: url("https://us.blu-raydisc.com/wp-content/uploads/2018/01/leo-1067x600.jpg"); 
+}
+
+.img2 {
+    background-image: url("https://images7.alphacoders.com/550/thumb-1920-550739.jpg"); 
+}
+
+.text {
+    color: white;
+    font-size: 2em;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+}
+
+/* สไตล์บล็อกสีดำ */
+.content {
+    padding: 50px;
+    background: #000;
+    color: white;
+    text-align: center;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
